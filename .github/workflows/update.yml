@@ -30,10 +30,10 @@ jobs:
           GITHUB_FILE: sub.txt
           GITHUB_BRANCH: main
           PREFIX: SkyWhy/CoreLink | Node
-          MAX_SERVERS: 60
+          MAX_SERVERS: 50
           TIMEOUT: 3
           PROFILE_TITLE: LTE VPN
           PROFILE_WEB_PAGE_URL: https://t.me/твой_канал
           SUPPORT_URL: https://t.me/твой_саппорт
-          ANNOUNCE: Проверяйте доступность серверов ⏱️ Ping Test
+          ANNOUNCE: Настройки-Подписки-Сортировать по пингу, проверяйте доступность серверов ⏱️ Ping Test Регулярно обновляйте подписку
           UPDATE_INTERVAL: 1
