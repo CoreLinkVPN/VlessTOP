@@ -30,7 +30,7 @@ jobs:
           GITHUB_FILE: sub.txt
           GITHUB_BRANCH: main
           PREFIX: SkyWhy/CoreLink | Node
-          MAX_SERVERS: 50
+          MAX_SERVERS: 25
           TIMEOUT: 3
           PROFILE_TITLE: LTE VPN
           PROFILE_WEB_PAGE_URL: https://t.me/твой_канал
