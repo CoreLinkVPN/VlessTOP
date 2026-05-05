@@ -29,8 +29,8 @@ jobs:
           GITHUB_REPO: ${{ secrets.REPO }}
           GITHUB_FILE: sub.txt
           GITHUB_BRANCH: main
-          PREFIX: LTE
-          MAX_SERVERS: 50
+          PREFIX: SkyWhy/CoreLink | Node
+          MAX_SERVERS: 20
           TIMEOUT: 3
           PROFILE_TITLE: LTE VPN
           PROFILE_WEB_PAGE_URL: https://t.me/твой_канал
