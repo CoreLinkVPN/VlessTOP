@@ -1,1 +1,35 @@
+name: Update subscription
 
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - run: pip install -r requirements.txt
+
+      - run: python main.py
+        env:
+          FRIEND_SUBS: ${{ secrets.FRIEND_SUBS }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_REPO: ${{ secrets.GITHUB_REPO }}
+          GITHUB_FILE: sub.txt
+          GITHUB_BRANCH: main
+          PREFIX: LTE
+          MAX_SERVERS: 50
+          TIMEOUT: 3
+          PROFILE_TITLE: LTE VPN
+          PROFILE_WEB_PAGE_URL: https://t.me/твой_канал
+          SUPPORT_URL: https://t.me/твой_саппорт
+          ANNOUNCE: Проверяйте доступность серверов ⏱️ Ping Test
+          UPDATE_INTERVAL: 1
