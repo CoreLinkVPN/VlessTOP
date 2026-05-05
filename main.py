@@ -15,7 +15,7 @@ GITHUB_REPO = os.getenv("GITHUB_REPO")
 GITHUB_FILE = os.getenv("GITHUB_FILE", "sub.txt")
 GITHUB_BRANCH = os.getenv("GITHUB_BRANCH", "main")
 
-MAX_SERVERS = int(os.getenv("MAX_SERVERS", "26"))
+MAX_SERVERS = int(os.getenv("MAX_SERVERS", "200"))
 TIMEOUT = 3
 
 def decode_sub(text):
