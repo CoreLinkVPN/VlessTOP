@@ -1,3 +1,8 @@
+#profile-update-interval: 1
+#profile-web-page-url: https://t.me/corelinkvpn
+#support-url: https://t.me/corelinksupportvpn
+#announce: Настройки-Подписки-Сортировать по пингу, проверяйте доступность серверов ⏱️ Ping Test Регулярно обновляйте подписку!
+#subscription-userinfo: upload=0; download=0; total=0
 vless://75807638-6f19-0190-ae08-38492ee85c88@178.72.182.25:52006?allowInsecure=1&sni=cl-oth-1.edgeflux.ru&flow=xtls-rprx-vision&security=tls#🇯🇵 [БС] HaizVpn ⚪
 vless://75807638-6f19-0190-ae08-38492ee85c88@178.72.182.25:52006?type=tcp&headertype=none&security=tls&encryption=none&sni=cl-oth-1.edgeflux.ru&host=cl-oth-1.edgeflux.ru&flow=xtls-rprx-vision&allowInsecure=1#🇯🇵 [БС] HaizVpn ⚪
 vless://75807638-6f19-0190-ae08-38492ee85c88@178.72.182.9:52006?allowInsecure=1&sni=cl-oth-1.edgeflux.ru&flow=xtls-rprx-vision&security=tls#🇯🇵 [БС] HaizVpn ⚪
