@@ -1,3 +1,7 @@
+# --- FIX UTF-8 ---
+import sys
+sys.stdout.reconfigure(encoding='utf-8')
+
 import os
 import base64
 import socket
@@ -5,6 +9,7 @@ import random
 import urllib.parse
 import requests
 
+# --- ENV ---
 FRIEND_SUBS = [x.strip() for x in os.getenv("FRIEND_SUBS", "").split(",") if x.strip()]
 
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
@@ -24,6 +29,7 @@ UPDATE_INTERVAL = os.getenv("UPDATE_INTERVAL", "1")
 EXPIRE = os.getenv("EXPIRE", "55556057600")
 
 
+# --- FUNCTIONS ---
 def decode_sub(text):
     text = text.strip()
     try:
@@ -83,8 +89,9 @@ def upload_to_github(content):
         "Accept": "application/vnd.github+json",
     }
 
-    get_file = requests.get(url, headers=headers, params={"ref": GITHUB_BRANCH})
-    sha = get_file.json().get("sha") if get_file.status_code == 200 else None
+    # Проверяем есть ли файл
+    r = requests.get(url, headers=headers, params={"ref": GITHUB_BRANCH})
+    sha = r.json().get("sha") if r.status_code == 200 else None
 
     data = {
         "message": "update subscription",
@@ -99,6 +106,7 @@ def upload_to_github(content):
     r.raise_for_status()
 
 
+# --- MAIN ---
 def main():
     all_links = []
 
@@ -109,6 +117,7 @@ def main():
         except Exception:
             continue
 
+    # убираем дубли
     all_links = list(dict.fromkeys(all_links))
     random.shuffle(all_links)
 
@@ -124,7 +133,7 @@ def main():
     final_sub = build_header() + "\n".join(good)
     upload_to_github(final_sub)
 
-    print(f"Готово. В подписку добавлено серверов: {len(good)}")
+    print(f"Готово. Серверов: {len(good)}")
 
 
 if __name__ == "__main__":
