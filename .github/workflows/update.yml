@@ -35,5 +35,5 @@ jobs:
           PROFILE_TITLE: LTE VPN
           PROFILE_WEB_PAGE_URL: https://t.me/твой_канал
           SUPPORT_URL: https://t.me/твой_саппорт
-          ANNOUNCE: Настройки-Подписки-Сортировать по пингу, проверяйте доступность серверов ⏱️ Ping Test Регулярно обновляйте подписку
+          ANNOUNCE: Настройки-Подписки-Сортировать по пингу, проверяйте доступность серверов ⏱️ Ping Test Регулярно обновляйте подписку!
           UPDATE_INTERVAL: 1
