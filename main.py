@@ -61,7 +61,7 @@ def rename(link, index):
 
     flag = get_flag(host) if host else "🏳️"
 
-    name = f"{flag} LTE | {index}"
+    name = f"{flag} {os.getenv('PREFIX', 'SkyWhy/CoreLink | Node')} {index}"
     return clean + "#" + urllib.parse.quote(name)
 
 def upload(content):
