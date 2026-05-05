@@ -1,9 +1,9 @@
-#profile-title: LTE VPN
+#profile-title: SKY/CORE VPN
 #profile-update-interval: 1
-#profile-web-page-url: https://t.me/твой_канал
-#support-url: https://t.me/твой_саппорт
+#profile-web-page-url: https://t.me/sokxyybc
+#support-url: https://t.me/@corelinkvpn_bot
 #announce: Проверяйте доступность серверов ⏱️ Ping Test
-#subscription-userinfo: upload=0; download=0; total=0; expire=55556057600
+#subscription-userinfo: upload=0; download=0; total=0; expire=5556057600
 
 vless://616f5216-aaf1-4983-8c79-7ee9b2dfdf02@158.160.250.161:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=www.apple.com&pbk=z9dOqH2pEKYk8V7opl4npiUUSXzj6yRHDYj9Xl95znY&sid=b99e82f6d99f6e&spx=%2F#LTE%20%7C%201
 vless://75807638-6f19-07d0-ae08-38492ee85c88@178.72.182.18:52006?type=tcp&headerType=none&security=tls&encryption=none&sni=cl-ru-1.edgeflux.ru&flow=xtls-rprx-vision&insecure=1#LTE%20%7C%202
