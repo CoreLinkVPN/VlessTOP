@@ -2,8 +2,6 @@
 #profile-update-interval: 1
 #profile-web-page-url: https://t.me/corelinkvpn
 #support-url: https://t.me/corelinksupportvpn
-#announce: Проверяйте доступность серверов ⏱️ Ping Test SkyWhy TG
-#subscription-userinfo: upload=0; download=0; total=0; expire=5555605760
-vless://88d09b04-acbc-4747-a770-1b9936ff794e@de.vz-or.com:443?security=reality&encryption=none&pbk=RJETAkoZ6lowmwc5f0HtPy00c3dfojqQuypriLExXRE&headerType=none&fp=qq&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=ads.x5.ru&sid=abbcd128#%D0%91%D0%B5%D0%BB%D1%8B%D0%B9+%D1%81%D0%BF%D0%B8%D1%81%D0%BE%D0%BA+%231
-vless://88d09b04-acbc-4747-a770-1b9936ff794e@de.vz-or.com:443?security=reality&encryption=none&pbk=RJETAkoZ6lowmwc5f0HtPy00c3dfojqQuypriLExXRE&headerType=none&fp=qq&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=ads.x5.ru&sid=abbcd128#%D0%91%D0%B5%D0%BB%D1%8B%D0%B9+%D1%81%D0%BF%D0%B8%D1%81%D0%BE%D0%BA+%232
-vless://88d09b04-acbc-4747-a770-1b9936ff794e@de.vz-or.com:443?security=reality&encryption=none&pbk=RJETAkoZ6lowmwc5f0HtPy00c3dfojqQuypriLExXRE&headerType=none&fp=qq&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=ads.x5.ru&sid=abbcd128#%D0%91%D0%B5%D0%BB%D1%8B%D0%B9+%D1%81%D0%BF%D0%B8%D1%81%D0%BE%D0%BA+%233
+#announce: Дополнительная подписка к основной для белых списков, только для покупателей, Проверяйте доступность серверов ⏱️ Ping Test @SkyWhySub_bot
+#subscription-userinfo: upload=0; download=0; total=0; expire=55556057
+
