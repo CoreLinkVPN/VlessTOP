@@ -4,4 +4,5 @@
 #support-url: https://t.me/corelinksupportvpn
 #announce: Дополнительная подписка к основной для белых списков, только для покупателей, Проверяйте доступность серверов ⏱️ Ping Test @SkyWhySub_bot
 #subscription-userinfo: upload=0; download=0; total=0; expire=55556057
-
+vless://30eaceb5-4db3-464b-b81c-ce8266065524@84.201.128.195:5555?security=reality&encryption=none&echfq=none&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&headerType=none&fp=qq&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=max.ru&sid=6ba85179e30d4fc2#%D0%91%D0%A1
+vless://30eaceb5-4db3-464b-b81c-ce8266065524@84.201.172.227:5555?security=reality&encryption=none&echfq=none&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&headerType=none&fp=qq&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=max.ru&sid=6ba85179e30d4fc2#%D0%91%D0%A1
